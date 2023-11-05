@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.IvanchikovDA.Sprint4.Task1.V15.Lib;
+using Tyuiu.IvanchikovDA.Sprint4.Task2.V26.Lib;
 
-namespace Tyuiu.IvanchikovDA.Sprint4.Task1.V15
+namespace Tyuiu.IvanchikovDA.Sprint4.Task2.V26
 {
     class Program
     {
@@ -17,15 +17,14 @@ namespace Tyuiu.IvanchikovDA.Sprint4.Task1.V15
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт#4                                                                *");
             Console.WriteLine("* Тема: Обработка структурных типов                                       *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #15                                                             *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #26                                                             *");
             Console.WriteLine("* Выполнил: Иванчиков Дмитрий Александрович | ПКТб-23-1                   *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Дан одномерный целочисленный массив на 14 элементов заполненный         *");
-            Console.WriteLine("* значениями с клавиатуры в диапазоне от 4 до 9                           *");
-            Console.WriteLine("* подсчитать произведение четных элементов массива. С клавиатуры:         *");
-            Console.WriteLine("* 6, 7, 6, 7, 5, 7, 6, 7, 9, 4, 6, 5, 8, 5                                *");
+            Console.WriteLine("* случайными значениями  в диапазоне от 1 до 8                            *");
+            Console.WriteLine("* подсчитать произведение нечетных элементов массива.                     *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
@@ -59,7 +58,6 @@ namespace Tyuiu.IvanchikovDA.Sprint4.Task1.V15
 
             Console.WriteLine(res);
             Console.ReadKey();
-
         }
     }
 }
