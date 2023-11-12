@@ -14,7 +14,7 @@ namespace Tyuiu.IvanchikovDA.Sprint4.Task6.V24.Test
 
             var data = new string[] { "Компьютер", "Телефон", "Планшет", "Принтер", "Сканер", "Монитор", "Клавиатура" };
             int[] res = ds.Calculate(data);
-            int [] waitdata = { "Компьютер", "Клавиатура" };
+            int waitdata = { "Компьютер", "Клавиатура" };
             CollectionAssert.AreEqual(waitdata, res);
         }
     }

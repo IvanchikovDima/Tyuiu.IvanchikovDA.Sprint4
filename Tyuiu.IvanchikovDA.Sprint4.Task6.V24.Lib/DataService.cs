@@ -11,7 +11,7 @@ namespace Tyuiu.IvanchikovDA.Sprint4.Task6.V24.Lib
     {
         public string[] Calculate(string[] array)
         {
-            string[] mus = Array.FindAll(array, x => x.Length > 7);
+            string[] mus = Array.FindAll(array, x => x.Length< 7);
             return mus.Length;
         }
     }
