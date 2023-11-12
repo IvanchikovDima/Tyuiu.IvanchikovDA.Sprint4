@@ -8,8 +8,16 @@ namespace Tyuiu.IvanchikovDA.Sprint4.Task7.V21.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void ValidCalc()
         {
+            int n = 4;
+            int m = 3;
+            int[,] mtrx = new int[n, m];
+            string str = "425963128528";
+            DataService ds = new DataService();
+            int res = ds.Calculate(n, m, str);
+            int wait = 32;
+            Assert.AreEqual(wait, res);
         }
     }
 }
