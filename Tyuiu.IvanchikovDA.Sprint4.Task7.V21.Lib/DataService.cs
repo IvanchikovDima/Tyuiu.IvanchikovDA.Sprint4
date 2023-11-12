@@ -24,14 +24,14 @@ namespace Tyuiu.IvanchikovDA.Sprint4.Task7.V21.Lib
 
             }
 
-            int count = 0;
+            int count = 1;
             for (int i = 0; i < n; i++)
             {
                 for (int j = 0; j < m; j++)
                 {
                     if (mtrx[i, j] % 2 == 0)
                     {
-                        count += mtrx[i, j];
+                        count *= mtrx[i, j];
                     }
                 }
 

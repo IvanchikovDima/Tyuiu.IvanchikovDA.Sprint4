@@ -10,13 +10,13 @@ namespace Tyuiu.IvanchikovDA.Sprint4.Task7.V21.Test
         [TestMethod]
         public void ValidCalc()
         {
-            int n = 4;
+            int n = 5;
             int m = 3;
             int[,] mtrx = new int[n, m];
-            string str = "425963128528";
+            string str = "684259137159648";
             DataService ds = new DataService();
             int res = ds.Calculate(n, m, str);
-            int wait = 32;
+            int wait = 73728;
             Assert.AreEqual(wait, res);
         }
     }

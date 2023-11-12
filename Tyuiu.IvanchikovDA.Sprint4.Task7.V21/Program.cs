@@ -11,11 +11,11 @@ namespace Tyuiu.IvanchikovDA.Sprint4.Task7.V21
     {
         static void Main(string[] args)
         {
-            int rows = 4;
+            int rows = 5;
             int columns = 3;
             int[,] mtrx = new int[rows, columns];
 
-            string str = "425963128528";
+            string str = "684259137159648";
 
             DataService ds = new DataService();
            
@@ -28,9 +28,9 @@ namespace Tyuiu.IvanchikovDA.Sprint4.Task7.V21
             Console.WriteLine("* Выполнил: Иванчиков Д.А. | ПКТб-23-1                         *");
             Console.WriteLine("****************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                     *");
-            Console.WriteLine("Дана строка из одноразрядных цифр 425963128528.                *");
-            Console.WriteLine("* Преобразуйте ее в матрицу 4 на 3 и подсчитайте               *");
-            Console.WriteLine("* сумму четных чисел.                                          *");
+            Console.WriteLine("Дана строка из одноразрядных цифр 684259137159648.             *");
+            Console.WriteLine("* Преобразуйте ее в матрицу 5 на 3 и подсчитайте               *");
+            Console.WriteLine("* произведение четных чисел.                                   *");
             Console.WriteLine("****************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                             *");
             Console.WriteLine("****************************************************************");
